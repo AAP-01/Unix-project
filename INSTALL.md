@@ -24,7 +24,7 @@ This is the environment used to develop and test the project.
 8. Choose your product: Select VMware Workstation Pro (for Windows or Linux) or VMware Fusion (for Mac). See Broadcom's guide on Download and Install VMware Fusion for Mac-specific setup steps.
 9. Pick a release and accept terms: Expand the version and operating system you need, open and review the Terms and Conditions link first so the agreement checkbox unlocks, and check the box to agree.
 10. Complete verification and download: Click the download button, fill out any required trade compliance or address verification prompts if requested, and save the installer.
-11. Run on the .exe file
+11. Run the .exe file
 
 #### Creating the virtual machine
 12. Launch VMware.

@@ -24,3 +24,4 @@ Pros:
 
 Cons:
 - Smaller community
+- More inconsistent updates
