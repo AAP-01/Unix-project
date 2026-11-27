@@ -1,7 +1,5 @@
 # Installation
-
-## Method 1: VMware Workstation
-This is the environment used to develop and test the project.
+This file shows how to install Nyarch on a VMware virtual machine, as well as
 
 ### Requirements
 - VMware Workstation
@@ -31,14 +29,38 @@ This is the environment used to develop and test the project.
 13. Select "Create a New Virtual Machine".
 14. Choose your guest operating system installer disc image (.iso file) and assign CPU, memory, and disk space. Nyarch needs a minimum of 3GB of RAM and 30GB of storage.
 15. Find the virtual machine in the sidebar and click "Power on this virtual machine. It'll take a few minutes to load its files.
-16. It'll ask for personalization information. Set what you want.
+16. Create the first account and set personalization. Set what you want.
 
-## Method 2: Physical Installation
-These steps can be followed if a dedicated SSD or external drive is available.
+### Project setup steps
+Once Nyarch is ready, follow these steps to set up the project
 
-### Requirements
-- USB installer
-- 30GB+ drive
+#### Creating user accounts
+1. Enter the terminal
+2. Type the following commands line by line:
+```bash
+sudo useradd -m animefan
+sudo passwd animefan
+```
+3. insert step
 
-### Installation Steps
-INSERT STEPS
+#### Installing project files
+Before starting, please note that you cannot copy and paste text into a virtual machine by default.
+1. Enter the terminal
+2. Type the following command:
+```bash
+git clone "https://github.com/AAP-01/Unix-project.git"
+```
+The project should be found in the Home directory. To verify, type:
+```bash
+ls Home
+```
+The project is there if it shows Unix-project.
+
+### Running the scripts
+1. Enter terminal
+2. Type the following commands line by line:
+```bash
+sudo ./Unix-project/Scripts/script1.sh
+sudo ./Unix-project/Scripts/script2.sh
+sudo ./Unix-project/Scripts/script3.sh
+```
